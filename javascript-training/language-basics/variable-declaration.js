@@ -1,7 +1,9 @@
-var a=10;
+var a;
 var a;
 
 let b;
+
+
 
 
 {

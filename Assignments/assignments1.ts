@@ -47,7 +47,7 @@ let rating: number = 7.5;
 console.log("Movie Rating:", rating);
 
 // 13. Blood type (fixed)
-const bloodType: string = "A";
+const bloodType: string = 'A';
 console.log("Blood Type:", bloodType);
 
 // 14. Book title (fixed)

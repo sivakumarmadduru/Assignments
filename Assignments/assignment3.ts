@@ -30,4 +30,7 @@ for (let i = 0; i < students.length; i++)
     console.log(students[i] + ": " + updatedMarks[i]);
 }
 
-console.log("Average Marks: " + average.toFixed(1));
+//console.log("Average Marks: " + average.toFixed(1));
+
+
+console.log("Average Marks: " +average);

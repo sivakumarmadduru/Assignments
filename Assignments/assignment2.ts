@@ -11,14 +11,14 @@ function checkLoanEligibility(
   // Rule 1: Credit Score above 750 → Automatically Approved
   if (creditScore > 750) {
     message = customerName + " is eligible for the loan (High credit score).";
-  } 
+  }
   // Rule 1: Credit Score below 650 → Denied
   else if (creditScore < 650) {
     message = customerName + " is NOT eligible for the loan (Low credit score).";
-  } 
+  }
   // Rule 2: Credit Score between 650 and 750
   else {
-    
+
     // Check Income
     if (income >= 50000) {
 

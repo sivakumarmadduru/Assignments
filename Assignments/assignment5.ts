@@ -1,3 +1,5 @@
+
+
 // Employee Data
 let names: string[] = ["Alice Johnson", "Bob Smith", "Carol Davis", "David Brown", "Eva Green"];
 let baseSalary: number[] = [75000, 68000, 82000, 90000, 60000];
@@ -55,3 +57,6 @@ else {
     console.log("Hike %: " + (hikePercentageValue * 100).toFixed(2) + "%");
     console.log("---------------------------");
 }
+
+
+

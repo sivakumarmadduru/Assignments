@@ -8,7 +8,6 @@ let ratings: number[] = [4.2, 3.8, 4.5, 2.5, 3.5];
 
 
 //Arrays to store
-
 let hike:number[]=[];
 let finalhike:number []=[];
 
@@ -28,7 +27,7 @@ bonus=1500;
 
 }
 
-if(ratings[i]>=3.0 && ratings[i] < 4)
+else if(ratings[i]>=3.0 && ratings[i] < 4)
 {
 percent=10;
 bonus=1200;
@@ -54,7 +53,7 @@ else {
         // Output
     console.log("Employee: " + names[i]);
     console.log("Hike: " + hike);
-    console.log("Hike %: " + (hikePercentageValue * 100).toFixed(2) + "%");
+    console.log("Hike %: " + (hikePercentageValue * 100)+ "%");
     console.log("---------------------------");
 }
 
